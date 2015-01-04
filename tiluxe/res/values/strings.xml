@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tiluxe</string>
+    
+    <!-- Update Message -->
+    <string name="update_message">
+    The menu button has now been enabled during game play. Pressing the menu 
+    button presents three options, Reset Game, New Game and Options. Reset Game 
+    clears the current board of all your progress and restores it to the 
+    starting configuration. New Game generates a brand new board with the same 
+    size and difficulty. Options presents the options menu where you can change 
+    the board size and difficulty. Changing either of these settings will 
+    generate a new board with the board size and difficulty you have chosen.
+    
+    Enjoy!
+    </string>
+    
+    <!-- Options related strings -->
+    <string name="options_settings">Settings</string>
+    <string name="options_tutorial">Tutorial</string>
+    <string name="options_about">About</string>
+    
+    <!-- Menu options -->
+    <string name="qm_reset_game">Reset Game</string>
+    <string name="qm_new_game">New Game</string>
+    <string name="qm_options">Options</string>
+    
+    <!-- Request Reset Game Alert Message -->
+    <string name="qm_reset_game_message">
+    This will cause all current progress to be lost. Are you sure you want to continue?
+    </string>
+    
+    <!-- Request New Game Alert Message -->
+    <string name="qm_new_game_message">
+    This will cause all current progress to be lost. Are you sure you want to continue?
+    </string>
+    
+    <!-- Request Options Menu Alert Message -->
+    <string name="qm_options_message">
+    Changing any of the settings will cause a new board to be generated. Are you sure you want to continue?
+    </string>
+    
+    <!-- Yes and No buttons -->
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+    <string name="ok_button">Ok</string>
+    
+    <!-- Preferences related strings -->
+    <string name="tiluxe_option_settings">Tiluxe Options</string>
+    <string name="difficulty_settings">Difficulty</string>
+    <string name="difficulty_settings_summary">
+    	Changes the number of free spaces given.
+    </string>
+    <string name="difficulty_key">difficultySetting</string>
+    <string name="easy_setting">Easy</string>
+    <string name="medium_setting">Medium</string>
+    <string name="hard_setting">Hard</string>
+    
+    <string name="board_size_settings">Board Size</string>
+    <string name="board_size_settings_summary">
+    	Changes the number of tiles on the board.
+    </string>
+    <string name="board_size_key">boardSize</string>
+    <string name="four_by_four">4x4</string>
+    <string name="five_by_five">5x5</string>
+    <string name="six_by_six">6x6</string>
+    <string name="seven_by_seven">7x7</string>
+    <string name="eight_by_eight">8x8</string>
+    <string name="nine_by_nine">9x9</string>
+    <string name="ten_by_ten">10x10</string>
+    
+    <!-- Board size specific search details -->
+    <string name="four_by_four_notes">
+    Turn on:\n
+    One set of two\n
+    Two sets of one
+    </string>
+    
+    <string name="five_by_five_notes">
+    Turn on:\n
+    One set of two\n
+    Three sets of one
+    </string>
+    
+    <string name="six_by_six_notes">
+    Turn on:\n
+    One set of three\n
+    One set of two\n
+    Three sets of one</string>
+    
+    <string name="seven_by_seven_notes">
+    Turn on:\n
+    Two sets of three\n
+    Two sets of two\n
+   	Two sets of one</string>
+    
+    <string name="eight_by_eight_notes">
+    Turn on:\n
+    One set of four\n
+   	One set of three\n
+    Two sets of two\n
+    Three sets of one</string>
+    
+    <string name="nine_by_nine_notes">
+    Turn on:\n
+    One set of four\n
+    Two sets of three\n
+    Two sets of two\n
+    Three sets of one</string>
+    
+    <string name="ten_by_ten_notes">
+    Turn on:\n
+    One set of four\n
+    Two sets of three\n
+    Three sets of two\n
+    Four sets of one</string>
+    
+    <!-- Tutorial strings -->
+    <string name="tutorial_one">
+    Welcome to Tiluxe. You can always revisit this 
+    tutorial from the Options menu. Hit the back button to skip it.
+    \n\n
+    Tiluxe is about turning on the correct tiles to win the game. Selecting a 
+    tile once will turn it on (white). Selecting the same tile 
+    again will turn it off (black). Select it one more time to reset it. 
+    Turn on the tile above to continue the tutorial.
+    </string>
+    
+    <string name="tutorial_two">
+    The legend around the board will change colors, from red to green, based on 
+    the state of the respective row or column. Red numbers indicate the 
+    row or column is not correct in terms of the number of tiles turned on. 
+    Green numbers indicate the row or column is correct. 
+    To continue, turn on the correct tile based on the legend values and colors.
+    </string>
+    
+    <string name="tutorial_three">
+    Tiles that need to be turned on cannot be touching horizontally, vertically 
+    or diagonally. There are two single tiles that need to be turned on in this 
+    board. Use the fact that they cannot touch and the legend to turn on 
+    the two correct tiles. Note: every game will tell you what to turn on at 
+    the bottom of the screen and will follow this format. To continue, turn on 
+    the correct tiles.
+    \n\n
+    Turn on:\n
+    Two sets of one
+    </string>
+    
+    <string name="tutorial_four">
+    Sometimes tiles that need to be turned on come in sets. A set is made up of 
+    two to four tiles placed together vertically or horizontally on the board. 
+    The tiles that make up a set are allowed to touch the other tiles in the 
+    set. However, sets cannot touch other tiles on the board that also need to 
+    be turned on. Just like the no touching rule discussed previously. 
+    To continue, turn on the correct tiles.
+    \n\n
+    Turn on:\n
+    One set of two\n
+    One set of one
+    </string>
+    
+    <string name="tutorial_five">
+    The different difficulty levels change the number of free empty and turned 
+    on tiles given to you at the start of a game. Free empty tiles are black 
+    with a T in them and do not change state. Use these to help you locate the 
+    other tiles on the board that need to be turned on. To continue, turn on 
+    the correct tiles.
+    \n\n
+    Turn on:\n
+    One set of two\n
+    Two sets of one
+    </string>
+    
+    <string name="tutorial_six">
+    Excellent work! You have mastered all of the rules of Tiluxe. Lets play one 
+    more game before cutting you loose. Remember, you can always view this 
+    tutorial again from the Options menu. You can also change the difficulty 
+    level and board size from the Options menu by pressing Settings, or by 
+    pressing the Menu button during a game.
+	\n\n
+    Turn on:\n
+    One set of three\n
+    One set of two\n
+    One set of one
+    </string>
+    
+    <!-- About strings -->
+    <string name="about_message">
+    	Tiluxe was developed by\n
+    	ASB Technologies, LLC.\n\n
+    	© ASB Technologies LLC, 2011    	
+    </string>
+    
+</resources>

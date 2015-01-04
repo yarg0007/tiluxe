@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory
+            android:title="@string/tiluxe_option_settings">
+            
+		<ListPreference
+			android:title="@string/difficulty_settings"
+			android:summary="@string/difficulty_settings_summary"
+			android:key="@string/difficulty_key"
+			android:defaultValue="@string/easy_setting"
+			android:entries="@array/difficulty"
+			android:entryValues="@array/difficulty_values" />  
+			
+		<ListPreference
+			android:title="@string/board_size_settings"
+			android:summary="@string/board_size_settings_summary"
+			android:key="@string/board_size_key"
+			android:defaultValue="@string/six_by_six"
+			android:entries="@array/board_size"
+			android:entryValues="@array/board_size" />  
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

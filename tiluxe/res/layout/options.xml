@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<ImageView
+		android:id="@+id/mainMenuBackground"
+		android:src="@drawable/title_background"
+		android:adjustViewBounds="true"
+		android:gravity="center"
+		android:scaleType="fitXY"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_x="0dp"
+		android:layout_y="0dp" />
+		
+		<LinearLayout
+       		android:layout_width="fill_parent"
+			android:layout_height="fill_parent" 
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_x="0dp" 
+			android:layout_y="0dp" 
+			android:orientation="vertical"
+			android:gravity="center">
+        
+        
+			<ImageView 
+				android:id="@+id/settingsButton"
+				android:src="@drawable/ui_settings"
+				android:layout_width="172dp" 
+				android:layout_height="61dp" 
+				android:layout_gravity="center_horizontal"
+				android:clickable="true"/>
+				
+	        <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="40dip" 
+	            xmlns:android="http://schemas.android.com/apk/res/android"/>
+            
+	       <ImageView 
+	            android:id="@+id/tutorialButton"
+	            android:src="@drawable/ui_tutorial"
+	            android:layout_width="178dp" 
+	            android:layout_height="48dp" 
+	            android:layout_gravity="center_horizontal"
+	            android:clickable="true"/>
+           
+           <LinearLayout
+		        android:layout_width="fill_parent"
+		        xmlns:android="http://schemas.android.com/apk/res/android" 
+		        android:layout_height="50dip"/>
+		        
+		   <ImageView 
+	            android:id="@+id/aboutButton"
+	            android:src="@drawable/ui_about"
+	            android:layout_width="130dp" 
+	            android:layout_height="48dp" 
+	            android:layout_gravity="center_horizontal"
+	            android:clickable="true"/>
+		   
+       </LinearLayout>
+			
+</AbsoluteLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+   
+    <string-array name="difficulty">
+        <item>@string/easy_setting</item>
+        <item>@string/medium_setting</item>
+        <item>@string/hard_setting</item>
+    </string-array>
+    
+    <string-array name="difficulty_values">
+        <item>@string/easy_setting</item>
+        <item>@string/medium_setting</item>
+        <item>@string/hard_setting</item>
+    </string-array>
+    
+    <string-array name="board_size">
+        <item>@string/four_by_four</item>
+        <item>@string/five_by_five</item>
+        <item>@string/six_by_six</item>
+        <item>@string/seven_by_seven</item>
+        <item>@string/eight_by_eight</item>
+        <item>@string/nine_by_nine</item>
+        <item>@string/ten_by_ten</item>
+    </string-array>
+    
+    <string-array name="board_size_values">
+        <item>@string/four_by_four</item>
+        <item>@string/five_by_five</item>
+        <item>@string/six_by_six</item>
+        <item>@string/seven_by_seven</item>
+        <item>@string/eight_by_eight</item>
+        <item>@string/nine_by_nine</item>
+        <item>@string/ten_by_ten</item>
+    </string-array>
+    
+</resources>
